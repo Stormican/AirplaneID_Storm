@@ -4,6 +4,7 @@ public class Flyer {
 		
 		Flyer startProgram = new Flyer();
 		startProgram.createAirplaneData();
+		System.out.println("Start program was successful");
 		
 		
 		
@@ -50,6 +51,7 @@ public class Flyer {
 		System.out.println("F16 has " + F16.getEngineNumber() + " engines");
 		System.out.println("F18 has " + F18.getEngineNumber() + " engines");
 		System.out.println("F35 has " + F35.getEngineNumber() + " engines");
+		System.out.println("A10 has " + A10.getEngineNumber() + " engines");
 		
 		
 	}
